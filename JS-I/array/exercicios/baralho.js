@@ -11,7 +11,7 @@ do {
   }
   menu = prompt(
     "Seu baralho: " +
-      tamanho +
+      baralho.length +
       "\n" +
       cartas +
       "\n1 - Adicionar uma Carta" +
