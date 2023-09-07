@@ -51,10 +51,14 @@ do {
       alert("O resultado do calculo do Quadrado é: " + calcularQuadrado(lado));
       break;
     case "4":
-      let baseMaior = prompt(
-        "Voce escolheu calcular a area do Trapézio! \nFavor, informar o valor da base maior"
+      let baseMaior = parseFloat(
+        prompt(
+          "Voce escolheu calcular a area do Trapézio! \nFavor, informar o valor da base maior"
+        )
       );
-      let baseMenor = prompt("Agora, favor, informar o valor da base menor");
+      let baseMenor = parseFloat(
+        prompt("Agora, favor, informar o valor da base menor")
+      );
       let alturaTrapezio = prompt("Por fim, favor, informar o valor da altura");
       alert(
         "O resultado do calculo do Trapezio é: " +
