@@ -1,3 +1,5 @@
+// exercicio feito sozinho
+
 function calcularTriangulo(base, altura) {
   return (base * altura) / 2;
 }
