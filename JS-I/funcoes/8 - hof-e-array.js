@@ -24,3 +24,38 @@ const nomes = personagens.map(function (personagem) {
 });
 
 console.log(nomes);
+
+// const orcs = [];
+
+// for (let i = 0; i < personagens.length; i++) {
+//   if (personagens[i].raca === "Orc") {
+//     orcs.push(personagens[i]);
+//   }
+// }
+
+//com filter
+
+const orcs = personagens.filter(function (personagem) {
+  return personagem.raca === "Orc";
+});
+
+console.log(orcs);
+
+// reduce -  transformar e criar um novo elemento a partir de um array
+
+const nivelTotal = personagens.reduce(function (valorAcumulado, elemento) {
+  return valorAcumulado + elemento.nivel;
+}, 0);
+
+console.log(nivelTotal);
+
+const raca = personagens.reduce(function (valorAcumulado, personagem) {
+  if (valorAcumulado[personagem.raca]) {
+    valorAcumulado[personagem.raca].push(personagem);
+  } else {
+    valorAcumulado[personagem.raca] = [personagem];
+  }
+  return valorAcumulado;
+}, {});
+
+console.log(raca);
