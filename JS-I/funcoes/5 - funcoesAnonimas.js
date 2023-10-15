@@ -1,3 +1,5 @@
+//São funções sem nomes muito utilizada em atribuição de variaveis e outros metodos
+
 function somar(a, b) {
   return a + b;
 }

@@ -1,7 +1,5 @@
 // São funções que chamam elas mesma e se repete.
 
-// const input = require("readline-sync");
-
 function dividir(num) {
   console.log(num);
   if (num % 2 === 0) {
@@ -10,9 +8,6 @@ function dividir(num) {
     return num;
   }
 }
-
-// let num = input.question("Digite um numero: ");
-// dividir(num);
 
 // function dobrar(num) {
 //   console.log(num);

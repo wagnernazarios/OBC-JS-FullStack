@@ -1,3 +1,5 @@
+// metodos são funções  dentro de um objetos.
+
 let pessoa = {
   nome: "Wagner",
   idade: 29,
