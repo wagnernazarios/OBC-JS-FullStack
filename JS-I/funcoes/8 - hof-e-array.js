@@ -25,6 +25,8 @@ const nomes = personagens.map(function (personagem) {
 
 console.log(nomes);
 
+//filter
+
 // const orcs = [];
 
 // for (let i = 0; i < personagens.length; i++) {
@@ -59,3 +61,11 @@ const raca = personagens.reduce(function (valorAcumulado, personagem) {
 }, {});
 
 console.log(raca);
+
+//sort
+
+personagens.sort(function (a, b) {
+  return a.nivel - b.nivel;
+});
+
+console.log(personagens);
