@@ -64,8 +64,11 @@ console.log(raca);
 
 //sort
 
-personagens.sort(function (a, b) {
+const personagemOrdenados = personagens.slice().sort(function (a, b) {
   return a.nivel - b.nivel;
 });
 
 console.log(personagens);
+console.log(personagemOrdenados);
+
+console.log(Date());
