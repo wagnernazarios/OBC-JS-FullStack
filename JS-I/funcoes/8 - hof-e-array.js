@@ -46,7 +46,7 @@ console.log(orcs);
 // reduce -  transformar e criar um novo elemento a partir de um array
 
 const nivelTotal = personagens.reduce(function (valorAcumulado, elemento) {
-  return valorAcumulado + elemento.nivel;
+  return (valorAcumulado += elemento.nivel);
 }, 0);
 
 console.log(nivelTotal);
@@ -70,5 +70,3 @@ const personagemOrdenados = personagens.slice().sort(function (a, b) {
 
 console.log(personagens);
 console.log(personagemOrdenados);
-
-console.log(Date());
