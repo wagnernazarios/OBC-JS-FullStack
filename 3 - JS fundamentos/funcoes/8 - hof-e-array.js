@@ -25,7 +25,9 @@ const nomes = personagens.map(function (personagem) {
 
 console.log(nomes);
 
-//filter
+//filter--------------------
+
+// sem filter
 
 // const orcs = [];
 
@@ -62,7 +64,7 @@ const raca = personagens.reduce(function (valorAcumulado, personagem) {
 
 console.log(raca);
 
-//sort
+//sort - reorganizar o array do nivel mais forte pro mais fraco
 
 const personagemOrdenados = personagens.slice().sort(function (a, b) {
   return a.nivel - b.nivel;
