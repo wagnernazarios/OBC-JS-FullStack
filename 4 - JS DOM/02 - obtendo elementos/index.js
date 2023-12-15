@@ -2,13 +2,13 @@ function show() {
   // para obter elemento pelo seu Id
   const contactList = document.getElementById("contact-list");
   console.log(contactList);
-  // para obter elemento pela sua tag
+  // * para obter elemento pela sua tag
   const listElements = document.getElementsByTagName("li");
   console.log(listElements);
-  //para obter elemento mais precisamente
+  // ? para obter elemento mais precisamente
   const label = document.querySelectorAll("#contact-list > li > label");
   console.log(label);
-  // para obter elemento pela sua classe
+  // ! para obter elemento pela sua classe
   const contactInput = document.getElementsByClassName("contact.input");
   console.log(contactInput);
   //para obte elemento pelo seu name
