@@ -138,7 +138,18 @@ h2 {
   border-left: 1px solid #ff725e;
   border-radius: 0 0 8px 8px;
   margin-top: -8px;
+  padding: 0 24px;
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.duvida.ativa .paragrafo {
   padding: 24px;
+  overflow: auto;
+  height: auto;
+  opacity: 1;
 }
 
 footer {
@@ -191,13 +202,11 @@ footer a {
 }
 
 .dev .link:hover {
-  transform: scale(1.5);
   color: #ff725e;
 }
 
 @media (max-width: 400px) {
   header {
-    margin: 0;
     justify-content: center;
   }
 
