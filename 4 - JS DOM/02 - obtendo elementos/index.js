@@ -1,7 +1,7 @@
 function show() {
   // para obter elemento pelo seu Id
-  const contactList = document.getElementById("contact-list");
-  console.log(contactList);
+  // const contactList = document.getElementById("contact-list");
+  // console.log(contactList);
   // * para obter elemento pela sua tag
   const listElements = document.getElementsByTagName("li");
   console.log(listElements);
@@ -19,3 +19,5 @@ function show() {
   const firstElement = document.querySelector("#contact-list > li > label");
   console.log(firstElement);
 }
+
+show();
