@@ -5,13 +5,3 @@ elementos.forEach(function (duvida) {
     duvida.classList.toggle("ativa");
   });
 });
-
-document.querySelectorAll(".burger").addEventListener("click", () => {
-  document.querySelectorAll(".menu").style.display = block;
-});
-
-$(document).ready(function () {
-  $("#btn").click(function () {
-    $(".menu-mobile").slideToggle(500);
-  });
-});
